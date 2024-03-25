@@ -1,5 +1,6 @@
 {
   "name": "openai-node",
+  "type": "module",
   "version": "1.0.0",
   "description": "Minimal demo with OpenAI-SDK and Node.JS",
   "main": "main.js",
