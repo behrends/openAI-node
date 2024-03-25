@@ -22,9 +22,14 @@ const chatCompletion = await openai.chat.completions.create({
   messages: [
     {
       role: 'system',
-      content: `Du bist ein Experte in JavaScript, der dabei hilft, die Sprache zu erlernen.`,
+      content: `Du bist ein Experte in JavaScript, der dabei hilft, die Sprache zu erlernen.
+      Deine Erklärungen sollen sich ausschließlich auf JavaScript beziehen.
+      Antworte nur im Kontext von JavaScript und gebe nur JavaScript-Beispiele. 
+      Du darfst keine anderen Programmiersprachen in Code-Beispielen verwenden.
+      Antworte NICHT mit Code-Beispiel in Python!
+      `,
       role: 'user',
-      content: input, // prompt given on command line
+      content: input + ' (ich Frage im Kontext von JavaScript)', // prompt given on command line
     },
   ],
   model: 'gpt-4-turbo-preview',
