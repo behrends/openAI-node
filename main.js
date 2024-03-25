@@ -29,7 +29,7 @@ const chatCompletion = await openai.chat.completions.create({
       Antworte NICHT mit Code-Beispiel in Python!
       `,
       role: 'user',
-      content: input + ' (ich Frage im Kontext von JavaScript)', // prompt given on command line
+      content: input + ' (ich frage im Kontext von JavaScript)', // prompt given on command line
     },
   ],
   model: 'gpt-4-turbo-preview',
