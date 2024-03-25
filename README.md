@@ -1,7 +1,8 @@
 # Node.js-Skript mit OpenAI SDK
 
-Das [Node.js](https://nodejs.org) in [main.js](main.js) zeigt ein die
-Verwendung [OpenAI](https://openai.com/)-API mit dem [JavaScript-SDK](https://platform.openai.com/docs/libraries/typescript-javascript-library).
+Das [Node.js](https://nodejs.org) in [main.js](main.js) zeigt die
+Verwendung der [OpenAI](https://openai.com/)-API mit dem
+[JavaScript-SDK](https://platform.openai.com/docs/libraries/typescript-javascript-library).
 
 ## Verwendung:
 
