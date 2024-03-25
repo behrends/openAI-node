@@ -2,7 +2,7 @@
   "name": "openai-node",
   "type": "module",
   "version": "1.0.0",
-  "description": "Minimal demo with OpenAI-SDK and Node.JS",
+  "description": "Minimal demo with OpenAI-SDK and Node.js",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,5 +12,8 @@
   "dependencies": {
     "dotenv": "^16.4.5",
     "openai": "^4.29.2"
+  },
+  "overrides": {
+    "whatwg-url": "13.0.0"
   }
 }
