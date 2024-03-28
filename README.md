@@ -13,4 +13,4 @@ Verwendung der [OpenAI](https://openai.com/)-API mit dem
 1. API-Key von OpenAI in Datei `.env` eintragen: \
    `OPENAI_API_KEY=hier_muss_der_API_key_stehen`
 1. Skript aufrufen: \
-   `node main.js 'Gib mir ein Beispiel einer forEach-Schleife'`
+   `npm start 'Gib mir ein Beispiel einer forEach-Schleife'`

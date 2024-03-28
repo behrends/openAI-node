@@ -5,12 +5,12 @@
   "description": "Minimal demo with OpenAI-SDK and Node.js",
   "main": "main.js",
   "scripts": {
+    "start": "node --env-file=.env main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "dotenv": "^16.4.5",
     "openai": "^4.29.2"
   },
   "overrides": {
