@@ -31,7 +31,7 @@ const chatCompletion = await openai.chat.completions.create({
       content: input + ' (ich frage im Kontext von JavaScript)', // prompt given on command line
     },
   ],
-  model: 'gpt-4-turbo-preview',
+  model: 'gpt-4-turbo',
 });
 
 console.log(chatCompletion.choices[0].message.content);
