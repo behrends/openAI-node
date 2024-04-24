@@ -17,7 +17,7 @@ if (process.argv.length > 2) {
   process.exit();
 }
 
-const chatCompletion = await openai.chat.completions.create({
+const chatStream = await openai.chat.completions.create({
   messages: [
     {
       role: 'system',
@@ -30,6 +30,9 @@ const chatCompletion = await openai.chat.completions.create({
     },
   ],
   model: 'gpt-4-turbo',
+  stream: true,
 });
 
-console.log(chatCompletion.choices[0].message.content);
+for await (const chunk of chatStream) {
+  process.stdout.write(chunk.choices[0]?.delta?.content || '');
+}
