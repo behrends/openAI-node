@@ -5,8 +5,7 @@
   "description": "Minimal demo with OpenAI-SDK and Node.js",
   "main": "main.js",
   "scripts": {
-    "start": "node --env-file=.env main.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node --env-file=.env index.js"
   },
   "author": "",
   "license": "MIT",
