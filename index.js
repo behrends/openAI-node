@@ -12,7 +12,7 @@ if (process.argv.length > 2) {
   // no prompt given
   console.error(
     `Dein Prompt fehlt. Gib ihn so im Programmaufruf an:
-        node main.js 'Mein Prompt ist hier.' `
+        npm start 'Mein Prompt ist hier.' `
   );
   process.exit();
 }
