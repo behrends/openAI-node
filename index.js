@@ -29,7 +29,7 @@ const chatStream = await openai.chat.completions.create({
       content: input, // prompt given on command line
     },
   ],
-  model: 'gpt-4-turbo',
+  model: 'gpt-4o',
   stream: true,
 });
 
